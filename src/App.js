@@ -27,13 +27,12 @@ function Header() {
         />
         <p class="text-green-400 text-3xl">Tre Babcock</p>
         <p class="break-words text-gray-400">
-          Hello, my name is Bobby! I usually go by Tre, but you can call me
-          whatever you want! I'm a software developer with 9 years of personal
-          experience. I have experience with many languages, but I use C#, Go,
-          and JavaScript most often. I use some other languages, such as Ruby,
-          Lua, PHP, C, and Rust when the situation calls for it. I also have 6
-          years of experience with query and scripting languages such as Bash
-          and SQL.
+          Hello, my name is Tre! I'm a software developer with 9 years of
+          personal experience. I have experience with many languages, but I use
+          C#, Go, and JavaScript most often. I use some other languages, such as
+          Ruby, Lua, PHP, C, and Rust when the situation calls for it. I also
+          have 6 years of experience with query and scripting languages such as
+          Bash and SQL.
         </p>
       </div>
     </div>
@@ -203,15 +202,19 @@ function Projects() {
           </div>
           <div class="m-2 cursor-pointer border-b-4 hover:border-gray-800 border-green-400 transition ease-in-out duration-200 p-4 text-gray-400 hover:text-gray-800 bg-gray-800 w-80 h-80 rounded-xl hover:bg-green-400 transform hover:-translate-y-2 hover:shadow-md">
             <div class="text-center bg-transparent">
-              <p class="text-2xl pb-2">Teamhub Backend</p>
+              <p class="text-3xl pb-2">qGen</p>
               <p class="break-words overflow-hidden">
-                This is the backend for Teamhub. It's written in Go, and uses
-                PostgreSQL as the database. Most of the functionality is
-                complete, except for some very important stuff like
-                authentication and middleware, and then a few more handlers I
-                need to write. Check out the{" "}
+                qGen is a report generator for a sample SQL database. You can
+                use pre-written generators, or write your own. With time, I plan
+                to make it more customizable so it could be used with any SQL
+                database, but the backend needs some work before that will be
+                possible. You can try it out{" "}
+                <a href="https://qgen.trebabcock.me" class="text-green-600">
+                  here
+                </a>
+                , or check out the{" "}
                 <a
-                  href="https://github.com/trebabcock/teamhub-backend"
+                  href="https://github.com/trebabcock/qgen"
                   class="text-green-600"
                 >
                   GitHub repo!
@@ -239,7 +242,7 @@ function Projects() {
                 </a>
                 . Check out the{" "}
                 <a
-                  href="https://github.com/trebabcock/teamhub-backend"
+                  href="https://github.com/trebabcock/gemchan"
                   class="text-green-600"
                 >
                   GitHub repo!
@@ -249,15 +252,15 @@ function Projects() {
           </div>
           <div class="m-2 cursor-pointer border-b-4 hover:border-gray-800 border-green-400 transition ease-in-out duration-200 p-4 text-gray-400 hover:text-gray-800 bg-gray-800 w-80 h-80 rounded-xl hover:bg-green-400 transform hover:-translate-y-2 hover:shadow-md">
             <div class="text-center bg-transparent">
-              <p class="text-2xl pb-2">Forces Simulator</p>
+              <p class="text-2xl pb-2">Teamhub Backend</p>
               <p class="break-words overflow-hidden">
-                This is (supposed to be) a fundamental forces simulator, but I
-                only got around to implementing Gravity. The only reason this
-                project is on here is because it's the only GitHub-ready C#
-                project I have. C# is the first language I learned, 9 years ago,
-                but I mostly use Go these days. Check out the{" "}
+                This is the backend for Teamhub. It's written in Go, and uses
+                PostgreSQL as the database. Most of the functionality is
+                complete, except for some very important stuff like
+                authentication and middleware, and then a few more handlers I
+                need to write. Check out the{" "}
                 <a
-                  href="https://github.com/trebabcock/Forces-Simulator"
+                  href="https://github.com/trebabcock/teamhub-backend"
                   class="text-green-600"
                 >
                   GitHub repo!
@@ -277,6 +280,26 @@ function Projects() {
                 <a
                   href="https://github.com/trebabcock/personal"
                   class="text-green-700"
+                >
+                  GitHub repo!
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="m-2 cursor-pointer border-b-4 hover:border-gray-800 border-green-400 transition ease-in-out duration-200 p-4 text-gray-400 hover:text-gray-800 bg-gray-800 w-80 h-80 rounded-xl hover:bg-green-400 transform hover:-translate-y-2 hover:shadow-md">
+            <div class="text-center bg-transparent">
+              <p class="text-2xl pb-2">Hera</p>
+              <p class="break-words overflow-hidden">
+                This is (one day going to be) an OpenGL game engine, but as of
+                now it only has a basic entity component system, and{" "}
+                <em>almost</em> has the ability to draw a triangle. The only
+                reason this project is on here in this state is because it's the
+                only GitHub-ready C# project I have. C# is the first language I
+                learned, 9 years ago, but I mostly use Go these days. Check out
+                the{" "}
+                <a
+                  href="https://github.com/trebabcock/hera"
+                  class="text-green-600"
                 >
                   GitHub repo!
                 </a>
